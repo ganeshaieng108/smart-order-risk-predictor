@@ -1,1 +1,4 @@
-{"threshold": 0.6199999999999998, "model": "LightGBM"}
+{
+  "threshold": 0.6799999999999997,
+  "model": "XGBoost"
+}
