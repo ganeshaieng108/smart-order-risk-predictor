@@ -1,12 +1,7 @@
-# 🛍️ Olist Smart Return Predictor
+#  Olist Smart Return Predictor
 
 > **Predicts whether a Brazilian e-commerce order will result in a bad customer experience — before it ships.**  
 > End-to-end ML project: data wrangling → EDA → feature engineering → model training → live Streamlit deployment.
-
-[![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=flat-square&logo=streamlit)](https://your-app-link.streamlit.app)
-[![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange?style=flat-square)](https://xgboost.readthedocs.io)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 ---
 
@@ -32,7 +27,7 @@
 
 ---
 
-## 🔍 Project Overview
+##  Project Overview
 
 E-commerce platforms lose significant revenue through bad order experiences — cancellations, returns, and low review scores. This project builds a **binary classification system** that predicts the probability of a bad order outcome using 26 engineered features drawn from 9 relational tables of the Olist dataset.
 
@@ -47,9 +42,9 @@ The final system is deployed as an **interactive Streamlit application** where a
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
-**👉 [Try the live app here](https://your-app-link.streamlit.app)**
+**👉 [Try the live app here](https://smart-order-risk-predictor-fsalvxte7yszt7n4eqmqgs.streamlit.app/)**
 
 > Adjust the sliders in the sidebar → the risk gauge and SHAP chart update instantly.
 
@@ -57,7 +52,7 @@ The final system is deployed as an **interactive Streamlit application** where a
 
 ---
 
-## 💼 Business Problem
+## Business Problem
 
 **Context:** Olist is a Brazilian marketplace that connects small retailers to major e-commerce channels. A "bad order" is defined as:
 - An order that was **cancelled**, OR
@@ -71,7 +66,7 @@ The final system is deployed as an **interactive Streamlit application** where a
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 **Source:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — available on Kaggle.
 
@@ -98,7 +93,7 @@ This is a moderately imbalanced dataset — handled via SMOTE during training.
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 Raw CSVs (9 tables)
@@ -131,7 +126,7 @@ Raw CSVs (9 tables)
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### Phase 1 — Data Wrangling
 
@@ -283,7 +278,7 @@ The app has three sections:
 
 ---
 
-## 📈 Feature Importance
+##  Feature Importance
 
 Top features by mean absolute SHAP value:
 
@@ -302,7 +297,7 @@ Top features by mean absolute SHAP value:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 olist-smart-return-predictor/
@@ -387,15 +382,7 @@ The app opens at `http://localhost:8501` in your browser.
 
 **SHAP makes the model trustworthy.** A prediction without an explanation is just a number. The SHAP waterfall chart turns each prediction into a story — which inputs pushed the risk up, which pushed it down — and makes the model useful to a non-technical stakeholder.
 
----
 
-## 📄 License
-
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
-
-The dataset is publicly available under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license via Kaggle/Olist.
-
----
 
 <div align="center">
   Built with 🧠 using the <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce">Olist Brazilian E-Commerce Dataset</a>
