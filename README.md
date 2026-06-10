@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 1. [Project Overview](#-project-overview)
 2. [Live Demo](#-live-demo)
@@ -265,7 +265,7 @@ The app has three sections:
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 | Metric | Value | Notes |
 |--------|-------|-------|
@@ -325,7 +325,7 @@ olist-smart-return-predictor/
 
 ---
 
-## ⚙️ How to Run Locally
+##  How to Run Locally
 
 **Prerequisites:** Python 3.10+, pip
 
@@ -372,7 +372,7 @@ The app opens at `http://localhost:8501` in your browser.
 
 ---
 
-## 💡 Lessons Learned
+##  Lessons Learned
 
 **Data leakage is subtle.** The `customer_past_bad_orders` feature required subtracting the current order's outcome before computing the aggregate — otherwise the model would have indirect access to the label it's trying to predict.
 
@@ -387,5 +387,5 @@ The app opens at `http://localhost:8501` in your browser.
 
 
 <div align="center">
-  Built with 🧠 using the <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce">Olist Brazilian E-Commerce Dataset</a>
+  Built with using the <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce">Olist Brazilian E-Commerce Dataset</a>
 </div>
