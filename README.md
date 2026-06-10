@@ -48,7 +48,7 @@ The final system is deployed as an **interactive Streamlit application** where a
 
 > Adjust the sliders in the sidebar → the risk gauge and SHAP chart update instantly.
 
-![App Screenshot](assets/app_screenshot.png)
+![App Screenshot](https://github.com/ganeshaieng108/smart-order-risk-predictor/blob/main/assets/Screenshot%202026-06-10%20084257.png)
 
 ---
 
